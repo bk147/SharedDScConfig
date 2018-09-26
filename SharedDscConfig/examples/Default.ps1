@@ -25,7 +25,7 @@ $Global:ConfigurationData = @{
 
 
 Configuration Default {
-    Import-DSCresource -ModuleName SharedDscConfig
+    Import-DSCresource -ModuleName SharedDscConfig -ModuleVersion '0.0.5'
     
     Node $ConfigurationData.AllNodes.NodeName {
 

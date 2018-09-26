@@ -8,6 +8,6 @@
         }
     }
 
-    Chocolatey = 'latest'
-#    Chocolatey = '0.0.48'
+#    Chocolatey = 'latest'
+    Chocolatey = '0.0.50'
 }
